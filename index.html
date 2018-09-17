@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>jquery学习</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(
+
+			function() {
+				$("div").text("hello-world");
+			}
+		);
+		// jquery中的第二种入口函数
+		$(function() {
+			console.debug("你好")
+		});
+	</script>
+</head>
+
+<body>
+	<div></div>
+</body>
+
+</html>
